@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
   outer_index = 0 
   while src[outer_index] do
     inner_index = 1
-    day_lowest_temperature = src[outer_count][0]
+    day_lowest_temperature = src[outer_index][0]
     while src[outer_index][inner_index] do 
       if src[outer_index][inner_index] < day_lowest_temperature
         day_lowest_temperature = src[outer_index][inner_index]
