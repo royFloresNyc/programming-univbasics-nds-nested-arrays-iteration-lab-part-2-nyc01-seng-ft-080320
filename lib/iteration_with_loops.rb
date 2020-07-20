@@ -13,6 +13,6 @@ def find_min_in_nested_arrays(src)
       inner_index += 1     
     end 
     lowest_temperatures << day_lowest_temperature
-    outer_count += 1
+    outer_index += 1
   end
 end
