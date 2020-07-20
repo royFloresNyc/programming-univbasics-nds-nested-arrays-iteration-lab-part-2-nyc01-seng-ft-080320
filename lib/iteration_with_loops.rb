@@ -3,7 +3,7 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
   lowest_temperatures = []
   outer_index = 0 
-  while src[outer_count] do
+  while src[outer_index] do
     inner_index = 1
     day_lowest_temperature = src[outer_count][0]
     while src[outer_index][inner_index] do 
